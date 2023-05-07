@@ -20,6 +20,14 @@
 			hsla(174, 48%, 72%, 0),
 			hsla(174, 65%, 65%, 1));
 
+	/* dark-theme */
+	/* Change the first number */
+	/* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
+	.dark-theme {
+		--gradient-color: linear-gradient(180deg,
+				hsla(250, 48%, 72%, 0),
+				hsla(250, 65%, 65%, 1));
+	}
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
 	--body-font: 'Roboto', sans-serif;
@@ -1366,46 +1374,59 @@ body.dark-theme {
 	.testimonial__container .swiper-button-next {
 		right: calc(50% - 5rem);
 	}
+
 	.testimonial__container .swiper-slide {
 		margin-bottom: 6rem;
 	}
+
 	.testimonial__description {
 		font-size: var(--h2-font-size);
 		margin-bottom: 2rem;
 	}
+
 	.testimonial__img {
 		width: 200px;
 		top: 13rem;
 		right: 4rem;
 	}
+
 	.contact__title {
 		margin-bottom: 3rem;
 	}
+
 	.contact__title i {
 		font-size: 1.25rem;
 	}
+
 	.contact__info {
 		row-gap: 3rem;
 	}
+
 	.contact__data-info {
 		font-size: var(--normal-font-size);
 	}
+
 	.contact__form {
 		row-gap: 2.5rem;
 	}
+
 	.footer__container {
 		padding: 4rem 0 3rem;
 	}
+
 	.footer__list {
 		column-gap: 3rem;
 		margin: 3rem 0;
 	}
+
 	.footer__social {
 		column-gap: 2rem;
 	}
+
 	.footer__social-link {
 		font-size: 1.5rem;
 	}
+
 	.footer__copy {
 		margin-top: 5rem;
 	}
