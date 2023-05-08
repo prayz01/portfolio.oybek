@@ -224,7 +224,7 @@ body.dark-theme {
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--body-color);
-	box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
+	box-shadow: 0 4px 25px hsla(207, 24%, 35%, .1);
 	padding-inline: 1.5rem;
 	border-radius: 3rem;
 	transition: background .4s;
